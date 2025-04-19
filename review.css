@@ -1,0 +1,86 @@
+
+body {font-family: Verdana, sans-serif; margin:0}
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+}
+
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+  margin-left: 200px;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  position: fixed;
+  
+
+  
+}
+.prev{
+  left: 500px;
+  top: 50%;
+}
+
+
+.next {
+  position: absolute;
+  right: 270px;
+  border-radius: 10px 0 0 3px;
+  top: 50%;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+.Reviews-page{
+  background-color: black;
+  color: white;
+  width: 100vw;
+  height: 100vh;
+  bottom: 28%;
+  text-align: center;
+
+}
+.logo{
+  width: 12%;
+
+}
+.fa-quote-left{
+  color: red;
+  margin-right: 59%;
+  font-size: 200%;
+  
+
+}
+.fa-quote-right{
+  color: red;
+  margin-left: 65%;
+  font-size: 200%;
+  
+}
+.navigation a{
+
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  font-size: 150%;
+  border: 10px;
+  
+  }
+  

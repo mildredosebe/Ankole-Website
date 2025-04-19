@@ -1,0 +1,180 @@
+.kilimani-menu{
+
+display: flex;
+
+
+}
+
+
+.kit-pic{
+
+background-image:url('/ktkt.jpg') ;
+width: 100%;
+height: 100vh;
+background-repeat: no-repeat;
+background-size: cover;
+ background-position: center;
+ overflow: hidden;
+}
+
+.price-list a{
+
+ color: white;
+  gap: 50px;
+  
+}
+
+.price-list{
+ background-color:black;
+ width: 100%;
+ height: 100vh;
+ overflow:scroll;
+
+}
+
+.breakfirst{
+
+ display: flex;
+
+}
+
+ .breakfirst p{
+color: white;
+
+ }
+
+ .orange{
+color: orangered;
+
+ }
+
+ .time p{
+ color: white;
+
+
+ }
+
+ .price-list h1{
+
+ color: white;
+
+ }
+
+ .food p{
+ color: white;
+
+
+ }
+
+ .food h1{
+
+  color: white;
+ }
+
+ .beef{
+ display: flex;
+
+
+ }
+
+ .beef img{
+ width: 10%;
+
+ }
+ .grilled{
+ margin-left: 50px;
+
+ }
+
+ .salad h1{
+  color: orangered;
+  font-size: 20px;
+
+ }
+
+  .keen{
+ display: flex;
+
+
+  }
+
+  .keen img{
+  width: 10%;
+
+  }
+
+  .WA{
+
+   margin-left: 50px;
+
+  }
+  .sandwiches h1{
+
+    color: orangered;
+    font-size: 20px;
+
+  }
+
+
+  
+
+  .grilled img{
+
+    width:30%;
+   
+    
+
+  }
+  
+  .steak p{
+ color: white;
+
+  }
+
+  .grilled-steak{
+
+    display: flex;
+  }
+
+  .grilled-steak img{
+
+   width: 10%;
+
+  }
+
+.grilled-price{
+
+ margin-left: 80px;
+ margin-top: 20px;
+}
+
+.keen-price{
+  margin-left: 80px;
+
+}
+
+.steak-price{
+
+ margin-left: 50px;
+
+
+}
+
+.fresh p{
+
+  color: orangered;
+}
+
+.fresh-prices p{
+
+  color: white;
+
+  margin-left: 50px;
+}
+ 
+.Juice{
+
+  display: flex;
+}
+
+ 

@@ -1,0 +1,144 @@
+.reservation-pic{
+
+background-image: url('/reservation44.jpg');
+background-repeat: no-repeat;
+background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+ width: 100%;
+ overflow: fixed;
+ 
+
+
+}
+
+.reservation-pic h6{
+
+ color: white;
+ position: relative;
+ left: 220px;
+ font-size: 50px;
+ bottom:100px ;
+
+
+}
+
+.reservation-pic h1{
+ color: orangered;
+ font-size: 70px;
+ position: relative;
+ bottom: 190px;
+ left: 100px;
+
+
+}
+
+.reservation-pic img{
+
+width:200px;
+position: relative;
+left: 190px;
+
+
+}
+.reservation-board{
+
+display: flex;
+
+
+
+}
+
+.reservation{
+
+ position: relative;
+ width: 100%;
+ height: 100vh;
+
+}
+
+ form{
+
+    border:1px solid black ;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: black;
+    height: 100vh;
+    border-width: 100%;
+    overflow: scroll;
+    
+
+ }
+
+ label {
+
+   color: white;
+
+ }
+
+  input{
+
+  color: grey;
+  }
+
+   #name{
+
+ width: 80%;
+ height:5% ;
+ 
+   } 
+
+
+   #location{
+      width: 80%;
+      height: 5%;
+
+   }
+
+    #Email{
+      width: 80%;
+      height: 5%;
+
+   }
+
+   #tell{
+
+      width: 80%;
+      height: 5%;
+
+   }
+
+   #number{
+
+      width: 80%;
+      height: 5%
+
+   }
+
+   #date{
+ 
+      width: 80%;
+      height: 5%
+   }
+
+   #time{
+
+      width: 80%;
+      height: 5%
+      
+
+   }
+
+   input{
+ background-color: black;
+ color: white;
+
+   }
+   #submit-button{
+
+      width: 81%;
+      height: 5%
+
+
+   }

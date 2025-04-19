@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="review.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+
+  <div class="Reviews-page">
+    <img src="https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65c0b0524cdc940f7455af22_logo.svg"
+      class="logo">
+    <h1 class="text1">Reviews</h1>
+    <div class="mySlides">
+      <i class="fa-solid fa-quote-left"></i>
+      <p>This place is run by educated, innovative &creative people! The architectural layout, seating, ambience,
+        <br><br>lighting,cutlery: servings, design; has been impeccably well thought out! Even the washrooms were
+        excellent!<br><br>The food was AWESOME! This is surprising considering the fact we were there on a Saturday
+        night<br><br> & they almost had no space!We were extremely well serviced too!Rare to find such finesse in Kenya!
+        You must go visit them!</p>
+      <p> irfan virji<br><br>
+        Kitisuru</p>
+      <i class="fa-solid fa-quote-right"></i>
+
+    </div>
+
+    <div class="mySlides">
+      <i class="fa-solid fa-quote-left"></i>
+
+      <p>Such a fantastic restaurant, I plan on being a regularhere.The food is amazing the atmosphere is so nice and
+        the <br><br>service is exceptional.I pray you are able to visit them at least once so you can understand what I'm
+        saying.<br><br> 10/10.Recommended dishes: Steak must go visit them!</q>
+      <p>Paul Kamau<br><br>
+        KITISURU </p>
+      <i class="fa-solid fa-quote-right"></i>
+
+    </div>
+
+    <div class="mySlides">
+      <i class="fa-solid fa-quote-left"></i>
+      <p>Best place to eat out.If you want to have a nice romantic date this place is perfect.The food is
+        fantastic<br><br> only be care fulcause the portions are bigger than you would expect.</q>
+      <p>
+        Vladimiro Stivali<br><br>
+        KITISURU</p>
+      <i class="fa-solid fa-quote-right"></i>
+
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+
+  </div>
+
+
+
+  <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) { slideIndex = 1 }
+      if (n < 1) { slideIndex = slides.length }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+    }
+  </script>
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>

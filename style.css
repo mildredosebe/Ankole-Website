@@ -1,0 +1,115 @@
+.image-fade{
+    position: relative;
+}
+
+.image img{
+
+width: 200px;   
+margin-left: 80px;
+margin-top: 100px;
+
+}
+
+.image h1{
+
+color: grey;
+margin-bottom: 100px;
+margin-left: 80px;
+font-size: 100px;
+
+
+}
+body{
+    overflow-x: hidden;
+}
+.image{
+
+    width:99.99vw;
+    height:99.99vh;
+    justify-content: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:absolute;
+    animation:anime 20s infinite forwards;
+    opacity: 0;
+    
+}
+
+
+.image:nth-child(1){
+    background-image: url('/view.jpg');
+   animation-delay:0s;
+}
+.image:nth-child(2){
+    background-image: url('/Interior.jpg');
+    animation-delay: 4s;
+}
+.image:nth-child(3){
+background-image: url('/Chips.jpg');
+animation-delay: 8s;
+
+}
+.image:nth-child(4){
+background-image: url('/cocktail.jpg');
+animation-delay: 12s;
+}
+.image:nth-child(5){
+background-image: url('/desert.jpg');
+animation-delay: 16s;
+}
+@keyframes anime{
+    0%{opacity:0;}
+    10%{opacity:1;}
+    30%{opacity:1;}
+    40%{opacity:100;}
+    100%{opacity:100;}
+}
+
+
+.overlay-text h1{
+
+position: absolute;
+top: 50% ;
+
+
+}
+.header{
+    position: absolute;
+}
+
+.nav a{
+
+display: block;
+background-color: blanchedalmond;
+}
+.navigation-bar{
+    position: fixed;
+    color: white;
+    margin-left: 23%;
+    font-size: 120%;
+    display: flex;
+    gap: 23px;
+    text-decoration: none;
+    width: 540px;
+    height:5px;
+    padding: 20px;
+    margin: 20px;
+    background-color: black;
+    margin-right: 100px;
+    text-align: center;
+    border-radius: 5%;
+    margin-top: 500px;
+    margin-left: 500;
+  
+    
+
+}
+
+.navigation-bar a{
+
+    text-decoration: none;
+    color: white;
+
+}
+
