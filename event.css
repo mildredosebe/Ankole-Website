@@ -5,7 +5,7 @@
 }
 
 .accra{
- background-image: url('/accra3.jpg');
+ background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url('/images/accra3.jpg');
  background-size: cover;
  background-position: center;
  background-size: cover;
@@ -49,7 +49,7 @@ left:160px ;
  }
 
  .nairobi{
- background-image: url('/nairobi3.jpg');
+ background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url('/images/nairobi3.jpg');
  background-size: cover;
  background-size: cover;
  background-repeat: no-repeat;
@@ -60,7 +60,7 @@ left:160px ;
 
   .nairobi h1{
   position: relative;
-  color: black;
+  color:white;
   font-size: 50px;
  left: 160px;
  top: 180px;
@@ -69,7 +69,7 @@ left:160px ;
 
   .packages p{
 
-    color: black;
+    color:white;
     position: relative;
     left:160px;
     bottom: 200px; ;
@@ -77,7 +77,7 @@ left:160px ;
 
    .details p{
 
-    color: black;
+    color:white;
     position: relative;
     bottom:190px ;
     left:160px ;
@@ -88,13 +88,14 @@ left:160px ;
 
 
  .zanzibar{
- background-image: url('/zanz3.jpg');
+ background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url('/images/zanz3.jpg');
  background-size: cover;
  background-position: center;
  background-size: cover;
  background-repeat: no-repeat;
  height: 100vh;
  width: 100%;
+  
 
  }
 
@@ -117,7 +118,7 @@ top:220px ;
 
 .zanzibar h1{
 position: relative;
-color: black;
+color:white;
 left:180px ;
 top: 200px;
 
@@ -129,6 +130,54 @@ top: 200px;
  width: 50;
 
 }
+
+header{
+  position: absolute;
+}
+
+.nav a{
+
+display: block;
+background-color: blanchedalmond;
+position: absolute;
+
+ 
+}
+.navigation-bar{
+  position: fixed;
+  color: white;
+  top: 600px;
+  font-size: 120%;
+  display: flex;
+  gap: 23px;
+  text-decoration: none;
+  width: 540px;
+  height:50px;
+  padding: 20px;
+  background-color: black;
+  text-align: center;
+  border-radius: 50px;
+  left: 480px;
+
+ 
+  
+
+}
+
+
+.navigation-bar a{
+  text-decoration: none;
+  color: white;
+
+}
+ 
+
+
+
+
+
+
+
 
  
  

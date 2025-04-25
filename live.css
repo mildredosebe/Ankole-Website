@@ -1,12 +1,10 @@
 .live-background{
-background-image: url('/handsup.jpg');
+background-image: url('/fom.jpg');
  width: 100%;
- height: 150vh;
- background-repeat: no-repeat;
- background-size: cover;
+ height: 400vh;
+ background-repeat: repeat-y;
+ background-size: contain;
  position: relative;
-
-
 }
 
 .live-background h2{
@@ -14,7 +12,6 @@ background-image: url('/handsup.jpg');
     position: relative;
     left: 290px;
     top: 100px;
- 
 
 }
 
@@ -35,28 +32,17 @@ top:80px ;
 }
 
  
-.fadhile-photo{
+.fadhile-photo {
 
-    background-image: url('/FAT.webp');
-    background-repeat: no-repeat;
     position: relative;
-    left:750px;
-    bottom: 375px;
-    background-size: 500px;
-    border-style: solid;
-    border-width: 15px;
-    border-color:purple;
-    width: 400px;
-     
-
-    
+    left:00px;
+    bottom: 375px;zz
+    /* background-size: 500px?; */
+          
 }
 
-.april p{
-    color:white;
-    font-size: 15px;
-    position: relative;
-}
+
+
 
 .info{
 
@@ -83,6 +69,9 @@ display: flex;
     bottom: 350px;
 
 }
+.info img{
+    margin-right: 20vw;
+}
 
 .details h3{
 
@@ -105,17 +94,12 @@ display: flex;
 
  }
 
- .mushroom-photo{
- background-image: url('/mushroom.jpeg'); 
-background-repeat:no-repeat;
-position: relative;
-left: 750px;
-bottom: 320px;
-background-size: 500px;
-border-style: solid;
-border-width: 15px;
-border-color:darkblue;
-width: 400px;
+ .mushroom-photo img{
+position: absolute;
+left: 810px;
+/* bottom: 32px; */
+  width: 350px; 
+ top: 450px;
  
 
  }
@@ -126,10 +110,16 @@ width: 400px;
 
  }
 
+ .room img{
+    /* margin-right: ; */
+ }
+
  .mushroom-photo{
  display: flex;
+ 
 
  }
+ 
 
  .happening h6{
   color: orangered;
@@ -140,7 +130,8 @@ width: 400px;
 
  .happening{
   position: relative;
-  left: 250px;
+  left: 1200px;
+  bottom: 2400px;
  }
 
  .happening h3{
@@ -159,28 +150,28 @@ width: 400px;
 
  }
 
- .muguna-photo{
+ #acoustic{
 
-  background-image: url('/muguna.jpg');
-   background-repeat: no-repeat;
    position: relative;
-   left: 750px;
-   bottom: 250px;
-   background-size: 500px;
-   border-style: solid;
-   border-width: 15px;
-   border-color:orangered;
-   width: 400px;
+   left: 800px;
+   bottom: 2050px;
+   width:350px;
    height:300px ;
+   
+ }
+ .muguna-photo a:hover{
+    background-color: gray;
+    position: relative;
+    top: 300px;
  }
 
- .jack p{
+ /* .jack img{
 
-  color: orangered;
+  /* color: orangered;
   position: relative;
-  top: 80px;
+  top: 80px; */
 
- }
+ */
 
  .mj h4{
     color: orangered;
@@ -234,9 +225,101 @@ display: flex;
  .when{
 
 position: relative;
- left: 800px;
- bottom: 200px;
+ left: 850px;
+ bottom: 2000px;
  
 
 
  }
+
+ nav a{
+
+    display: block;
+    position: relative;
+    text-decoration: none;
+    color: white;
+    }
+    .navigation-bar{
+        
+        bottom: 20px;
+        font-size: 30px;
+        display: flex;
+        position: absolute;
+        gap: 23px;
+        text-decoration: none;
+        width: 660px;
+        height:50px;
+        padding: 20px;
+        background-color: black;
+        text-align: center;
+    }
+
+    .april p {
+        color:white;
+        font-size: 15px;
+        position: relative;
+        }
+        
+        .fadhile-photo img{
+
+           position: relative;
+            left:800px;
+            bottom: 445px;
+            /* background-size: 500px?; */
+            width: 150%; 
+        }
+
+        .details{
+        position: relative;
+        left:150px ;
+        top: 70px;
+    
+        }
+
+        header{
+            position: absolute;
+        }
+        
+        .nav a{
+        
+         display: block;
+         background-color: blanchedalmond;
+         position: absolute;
+         
+           
+        }
+        .navigation-bar{
+            position: fixed;
+            color: white;
+            top: 600px;
+            font-size: 120%;
+            display: flex;
+            gap: 23px;
+            text-decoration: none;
+            width: 540px;
+            height:50px;
+            padding: 20px;
+            background-color: black;
+            text-align: center;
+            border-radius: 50px;
+        
+        
+           
+            
+        
+        }
+        
+        
+        .navigation-bar a{
+            text-decoration: none;
+            color: white;
+        
+        }
+           
+    
+    
+    
+      
+    
+    
+    

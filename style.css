@@ -1,5 +1,6 @@
 .image-fade{
     position: relative;
+    
 }
 
 .image img{
@@ -20,7 +21,7 @@ font-size: 100px;
 
 }
 body{
-    overflow-x: hidden;
+    overflow: hidden;
 }
 .image{
 
@@ -38,24 +39,24 @@ body{
 
 
 .image:nth-child(1){
-    background-image: url('/view.jpg');
+    background-image: url('/images/view.jpg');
    animation-delay:0s;
 }
 .image:nth-child(2){
-    background-image: url('/Interior.jpg');
+    background-image: url('/images/Interior.jpg');
     animation-delay: 4s;
 }
 .image:nth-child(3){
-background-image: url('/Chips.jpg');
+background-image: url('/images/Chips.jpg');
 animation-delay: 8s;
 
 }
 .image:nth-child(4){
-background-image: url('/cocktail.jpg');
+background-image: url('/images/cocktail.jpg');
 animation-delay: 12s;
 }
 .image:nth-child(5){
-background-image: url('/desert.jpg');
+background-image: url('/images/desert.jpg');
 animation-delay: 16s;
 }
 @keyframes anime{
@@ -63,7 +64,7 @@ animation-delay: 16s;
     10%{opacity:1;}
     30%{opacity:1;}
     40%{opacity:100;}
-    100%{opacity:100;}
+    100%{opacity:100;}e website
 }
 
 
@@ -74,42 +75,72 @@ top: 50% ;
 
 
 }
-.header{
+header{
     position: absolute;
 }
 
 .nav a{
 
-display: block;
-background-color: blanchedalmond;
+ display: block;
+ background-color: blanchedalmond;
+ position: absolute;
+ 
+   
 }
 .navigation-bar{
     position: fixed;
     color: white;
-    margin-left: 23%;
+    top: 600px;
     font-size: 120%;
     display: flex;
     gap: 23px;
     text-decoration: none;
     width: 540px;
-    height:5px;
+    height:50px;
     padding: 20px;
-    margin: 20px;
     background-color: black;
-    margin-right: 100px;
     text-align: center;
-    border-radius: 5%;
-    margin-top: 500px;
-    margin-left: 500;
-  
+    border-radius: 50px;
+    left: 480px;
+
+   
     
 
 }
 
-.navigation-bar a{
 
+.navigation-bar a{
     text-decoration: none;
     color: white;
 
 }
 
+@media (max-width: 992px) {
+    .navigation-bar {
+      display: none;
+    }
+    
+    
+  }
+  
+  @media (max-width: 768px) {
+    .image-fade{
+      height: 100vh;
+      padding:0 3.0rem ;
+    }
+    
+    .header-container {
+      padding: 0 1.5rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+     {
+      --header-height: 60px;
+      --section-padding: 2rem 0;
+    }
+    
+    .image img {
+      height: 35px;
+    }
+  }

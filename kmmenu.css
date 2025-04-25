@@ -8,7 +8,7 @@ display: flex;
 
 .kit-pic{
 
-background-image:url('/ktkt.jpg') ;
+background-image:url('images/ktkt.jpg') ;
 width: 100%;
 height: 100vh;
 background-repeat: no-repeat;
@@ -20,7 +20,9 @@ background-size: cover;
 .price-list a{
 
  color: white;
-  gap: 50px;
+ gap: 100px;
+ margin-left: 70px;
+text-decoration: none;
   
 }
 
@@ -177,4 +179,51 @@ color: orangered;
   display: flex;
 }
 
- 
+ .kit-pic h1{
+
+   color: orangered;
+   font-size: 50px;
+   position: relative;
+   left: 230px;
+   top: 140px;
+ }
+
+ .kit-pic p{
+
+   color: white;
+   font-size: 25px;
+     position: relative;
+     left:300px ;
+
+ }
+  
+ .navigation-bar{
+  position: fixed;
+  color: white;
+  margin-left: 23%;
+  font-size: 120%;
+  display: flex;
+  gap: 23px;
+  text-decoration: none;
+  width: 540px;
+  height:5px;
+  padding: 20px;
+  margin: 20px;
+  background-color: black;
+  margin-right: 100px;
+  text-align: center;
+  border-radius: 5%;
+  margin-top: 500px;
+  margin-left: 500;
+  
+}
+
+
+.navigation-bar a{
+  text-decoration: none;
+  color: white;
+
+}
+
+
+   
